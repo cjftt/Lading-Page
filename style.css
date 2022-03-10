@@ -1,0 +1,169 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.headerlogo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.right-links {
+    display: flex;
+    gap: 15px;
+}
+
+.right-links a,
+.header2 a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.right-side img {
+    width: 500px;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 200px;
+    align-items: center;
+
+}
+
+#title {
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+
+.left-side p {
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    align-self: flex-start;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 20px
+}
+
+.body-tytle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.square-division {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* Cuadrados */
+
+.square-division img {
+    width: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.quote .author {
+    align-items: flex-start;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    text-align: right;
+}
+
+.quote #quot {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+
+}
+
+.sign-up {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 50px 70px;
+    margin: 40px 200px;
+    border-radius: 8px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#blueone {
+    border: 1px solid white;
+    padding: 10px 45px;
+    align-self: center;
+}
+
+#title1 {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+}
+
+#subtitle {
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+
